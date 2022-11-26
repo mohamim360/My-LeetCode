@@ -15,12 +15,12 @@ public:
          
         vector<vector<int>>v;
         queue<TreeNode*>q;
-        q.push(root); 
-        int n=q.size();
-          if(root==NULL){
-            return v;
-        }  
        
+        
+          if(root!=NULL){
+            q.push(root); 
+        }  
+       int n=q.size();
         while(q.empty()<=0){ 
             vector<int>v1;
             while(n--){ 
